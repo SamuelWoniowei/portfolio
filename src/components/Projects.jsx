@@ -38,7 +38,7 @@ export default function Projects() {
     },
   ];
   return (
-    <div id="projects" className={` ${activeLink === "projects" && ""} pt-28`}>
+    <div id="projects" className={` ${activeLink === "projects" && ""} lg:pt-28`}>
       <h2 className="lg:hidden text-name font-bold mt-28 mb-8">PROJECTS</h2>
       {projects.map((project, idx) => (
         <a
