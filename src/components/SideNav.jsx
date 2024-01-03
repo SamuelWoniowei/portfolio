@@ -1,5 +1,6 @@
 import { Link as ScrollLink } from "react-scroll";
 import { useScrollLinkContext } from "../ScrollContext";
+import { useEffect } from "react";
 
 export default function SideNav() {
   const { activeLink, setActive } = useScrollLinkContext();
@@ -7,6 +8,33 @@ export default function SideNav() {
   const handleSetActive = (link) => {
     setActive(link);
   };
+
+  const handleScroll = () => {
+    const scrollPosition = window.scrollY;
+    const sections = ["about", "experience", "projects"];
+  
+    const activeSection = sections.find((section) => {
+      const element = document.getElementById(section);
+      if (element) {
+        const offsetTop = element.offsetTop;
+        const offsetBottom = offsetTop + element.offsetHeight;
+        return scrollPosition >= offsetTop && scrollPosition < offsetBottom;
+      }
+      return false;
+    });
+  
+    setActive(activeSection || null);
+  };
+
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+  
+  
 
   return (
     <div className="font-karla text-errie tracking-wider mt-16 hidden lg:block">
