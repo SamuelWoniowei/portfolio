@@ -45,7 +45,7 @@ export default function SideNav() {
             smooth={true}
             duration={500}
             className={`cursor-pointer ${
-              activeLink === "about" && "active font-bold"
+              activeLink === "about" && "active font-bold text-name"
             }`}
             onClick={() => handleSetActive("about")}
           >
@@ -58,7 +58,7 @@ export default function SideNav() {
             smooth={true}
             duration={500}
             className={`cursor-pointer ${
-              activeLink === "experience" && "active font-bold"
+              activeLink === "experience" && "active font-bold text-name"
             }`}
             onClick={() => handleSetActive("experience")}
           >
@@ -71,7 +71,7 @@ export default function SideNav() {
             smooth={true}
             duration={500}
             className={`cursor-pointer ${
-              activeLink === "projects" && "active font-bold"
+              activeLink === "projects" && "active font-bold text-name"
             }`}
             onClick={() => handleSetActive("projects")}
           >
