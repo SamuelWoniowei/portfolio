@@ -21,7 +21,16 @@ export default function Experience() {
       technology: ["Ruby", "React", "React Native", "Javascript"],
       description:
         "Collaborated as a Backend and Frontend Developer on the Penlite app, contributing to a robust backend, designing efficient APIs, and creating engaging frontend interfaces. Implemented server-side logic for enhanced security, ensuring seamless integration without direct collaboration with other frontend developers. Led the 'amuam' mobile app's React Native UI development, applying responsive design and staying updated on mobile trends for innovative solutions.",
-    }    
+    },
+    {
+      date: "DEC 2017",
+      role: "Web Designer",
+      company: "CareerLyft",
+      technology: ["HTML", "CSS"],
+      description:
+        "Converted Resume web designs to html and css",
+    }     
+
   ];
   return (
     <div className=" lg:pt-28 " id="experience">

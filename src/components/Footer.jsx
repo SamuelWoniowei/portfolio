@@ -4,7 +4,7 @@ export default function Footer() {
       Design was inspired by <strong>Brittany Chiang</strong> and coded in{" "}
       <strong>Visual Studio Code</strong> by me. Built with{" "}
       <strong>React</strong> and <strong>Tailwind CSS</strong>, 
-      deployed with Vercel
+      deployed with <strong>Vercel</strong>
     </div>
   );
 }

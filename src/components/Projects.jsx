@@ -5,6 +5,22 @@ export default function Projects() {
   const { activeLink } = useScrollLinkContext();
   const projects = [
     {
+      name: "Akaani Web app",
+      link: "http://groot-staging.herokuapp.com/home",
+      img: "https://res.cloudinary.com/shmulky/image/upload/v1704310200/Screenshot_2024-01-03_at_20.30.47.png",
+      technology: ["React"],
+      description:
+        "Web app for Akaani, a supply-chain startup that combines an AI-powered marketplace and recipe platform to create a one-of-a-kind commerce experience for African grocery customers and sellers.",
+    },
+    {
+      name: "Akaani Mobile App",
+      link: "https://useakaani.com/images/applestore.png",
+      img: "https://res.cloudinary.com/shmulky/image/upload/t_square/v1704310985/IMG_2DC874DA1DB7-1.jpg",
+      technology: ["React Native"],
+      description:
+        "Developed and styled pages on the Akaani user and Sella Apps",
+    },
+    {
       name: "Countries",
       link: "https://seecountries.netlify.app",
       img: "https://res.cloudinary.com/shmulky/image/upload/v1704239663/Screenshot_2024-01-03_at_00.54.29.png",
