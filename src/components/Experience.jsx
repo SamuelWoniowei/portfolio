@@ -55,7 +55,7 @@ export default function Experience() {
           </div>
         </div>
       ))}
-      <a href="/public/samuelwoniowei.pdf" target="_blank" className=' font-karla font-semibold' rel="noopener noreferrer">View Full Resume <LookTo /></a>
+      <a href="/samuelwoniowei.pdf" target="_blank" className=' font-karla font-semibold' rel="noopener noreferrer">View Full Resume <LookTo /></a>
     </div>
   );
 }
