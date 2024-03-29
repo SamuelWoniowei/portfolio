@@ -9,7 +9,7 @@ export default function Intro() {
         <h2 className="text-3xl md:text-5xl font-karla font-extrabold text-name md:mt-2 mb-1 md:mb-4">
           Samuel B. Woniowei
         </h2>
-        <p className="text-md md:text-xl text-name ">Self-Taught Front-end Developer</p>
+        <p className="text-md md:text-xl text-name ">Self-Taught Front-end Developer </p>
       </div>
 
       <SideNav />
