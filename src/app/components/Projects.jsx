@@ -1,5 +1,7 @@
-import { useScrollLinkContext } from "../ScrollContext";
+
+"use client"
 import LinkTo from "../assets/LinkTo";
+import { useScrollLinkContext } from "../ScrollContext";
 
 export default function Projects() {
   const { activeLink } = useScrollLinkContext();

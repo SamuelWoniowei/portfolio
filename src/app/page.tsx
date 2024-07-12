@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Intro from './components/Intro';
 import About from './components/About';
 import Articles from './components/Articles';
@@ -5,12 +6,9 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 
-
-
-function App() {
-
+export default function Home() {
   return (
-    <div className=" px-8  md:px-14 lg:px-36  lg:flex">
+    <main className=" px-8  md:px-14 lg:px-36  lg:flex">
       <div className="flex-1">
         <Intro />
       </div>
@@ -21,8 +19,6 @@ function App() {
        <Articles />
        <Footer />
       </div>
-    </div>
+    </main>
   );
 }
-
-export default App;

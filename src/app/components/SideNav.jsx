@@ -1,3 +1,4 @@
+"use client"
 import { Link as ScrollLink } from "react-scroll";
 import { useScrollLinkContext } from "../ScrollContext";
 import { useEffect } from "react";
