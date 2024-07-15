@@ -1,6 +1,6 @@
 "use client"
 import { Link as ScrollLink } from "react-scroll";
-import { useScrollLinkContext } from "../ScrollContext";
+import { useScrollLinkContext } from "../ScrollLinkContext";
 import { useEffect } from "react";
 
 export default function SideNav() {
@@ -33,7 +33,7 @@ export default function SideNav() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  });
   
   
 

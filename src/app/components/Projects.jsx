@@ -1,7 +1,8 @@
 
 "use client"
+import Image from "next/image";
 import LinkTo from "../assets/LinkTo";
-import { useScrollLinkContext } from "../ScrollContext";
+import { useScrollLinkContext } from "../ScrollLinkContext";
 
 export default function Projects() {
   const { activeLink } = useScrollLinkContext();
@@ -68,7 +69,7 @@ export default function Projects() {
         >
           <div className="flex flex-col md:flex-row gap-4 mb-14">
             <div className="md:w-1/5 order-2 md:order-1">
-              <img
+              <Image
                 className="h-50 w-1/2 md:h-30 md:w-28 "
                 src={project.img}
                 alt="Project Image"

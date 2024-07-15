@@ -1,16 +1,8 @@
-"use client"
+"use client";
 
-import { createContext, useContext, useState } from 'react';
-
-const ScrollLinkContext = createContext();
-
-export const useScrollLinkContext = () => {
-  const context = useContext(ScrollLinkContext);
-  if (!context) {
-    throw new Error('useScrollLinkContext must be used within a ScrollLinkProvider');
-  }
-  return context;
-};
+import { useState } from 'react';
+import PropTypes from 'prop-types';
+import ScrollLinkContext from './ScrollLinkContext';
 
 export const ScrollLinkProvider = ({ children }) => {
   const [activeLink, setActiveLink] = useState('about');
@@ -24,4 +16,8 @@ export const ScrollLinkProvider = ({ children }) => {
       {children}
     </ScrollLinkContext.Provider>
   );
+};
+
+ScrollLinkProvider.propTypes = {
+  children: PropTypes.node.isRequired,
 };
