@@ -1,9 +1,9 @@
 import Intro from './components/Intro';
-// import About from './components/About';
-// import Articles from './components/Articles';
-// import Experience from './components/Experience';
-// import Projects from './components/Projects';
-// import Footer from './components/Footer';
+import About from './components/About';
+import Articles from './components/Articles';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -11,13 +11,13 @@ export default function Home() {
       <div className="flex-1">
         <Intro />
       </div>
-      {/* <div className="flex-1">
+      <div className="flex-1">
        <About />
        <Experience />
        <Projects />
        <Articles />
        <Footer />
-      </div> */}
+      </div>
     </main>
   );
 }

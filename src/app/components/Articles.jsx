@@ -20,7 +20,7 @@ export default function Articles() {
       {articles.map((article, idx) => (
         <div className="flex gap-4 mb-14" key={idx}>
           <div className="w-1/5">
-            <Image className="h-30 w-28" src={article.img} alt="Project Image" />
+            <Image className="h-30 w-28" src={article.img} alt="Project Image" width={200} height={100} />
           </div>
           <div className="w-4/5 text-sm md:text-md">
             <a href={article.link} target="_blank" rel="noopener noreferrer" className="block hover:text-name">

@@ -73,6 +73,8 @@ export default function Projects() {
                 className="h-50 w-1/2 md:h-30 md:w-28 "
                 src={project.img}
                 alt="Project Image"
+                width={200}
+                height={100}
               />
             </div>
             <div className="md:w-4/5 text-sm md:text-md order-1 md:order-2">

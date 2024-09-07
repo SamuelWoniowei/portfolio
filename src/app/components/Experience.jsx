@@ -1,4 +1,4 @@
-import LookTo from '../assets/LinkTo';
+// import LookTo from '../assets/LinkTo';
 export default function Experience() {
   const history = [
     {
@@ -55,7 +55,7 @@ export default function Experience() {
           </div>
         </div>
       ))}
-      <a href="/samuelwoniowei.pdf" target="_blank" className=' font-karla font-semibold' rel="noopener noreferrer">View Full Resume <LookTo /></a>
+      {/* <a href="/samuelwoniowei.pdf" target="_blank" className=' font-karla font-semibold' rel="noopener noreferrer">View Full Resume <LookTo /></a> */}
     </div>
   );
 }
