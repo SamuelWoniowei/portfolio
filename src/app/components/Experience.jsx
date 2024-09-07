@@ -6,7 +6,7 @@ export default function Experience() {
       role: "Frontend Engineer",
       company: "Akaani",
       technology: ["TailwindCss", "React", "Javascript", "React Native"],
-      description: "I played a pivotal role in designing user-friendly pages for Akaani mobile apps with React Native, focusing on responsive and high-performance applications. Responsibilities included improving usability, ensuring cross-platform compatibility, and integrating frontend and backend components for seamless communication and data flow."
+      description: "I played a pivotal role in building user-friendly pages for Akaani mobile apps with React Native, focusing on responsive and high-performance applications. Responsibilities included improving usability, ensuring cross-platform compatibility, and integrating frontend and backend components for seamless communication and data flow."
     },
     {
       date: "JAN 2019 - OCT 2021",

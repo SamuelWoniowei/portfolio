@@ -9,7 +9,7 @@ export default function Projects() {
   const projects = [
     {
       name: "Akaani Web app",
-      link: "http://groot-staging.herokuapp.com/home",
+      link: "http://useakaani.com",
       img: "https://res.cloudinary.com/shmulky/image/upload/v1704310200/Screenshot_2024-01-03_at_20.30.47.png",
       technology: ["React"],
       description:
@@ -17,7 +17,7 @@ export default function Projects() {
     },
     {
       name: "Akaani Mobile App",
-      link: "https://useakaani.com/images/applestore.png",
+      link: "https://testflight.apple.com/join/dFeKG9fc",
       img: "https://res.cloudinary.com/shmulky/image/upload/t_square/v1704310985/IMG_2DC874DA1DB7-1.jpg",
       technology: ["React Native"],
       description:
