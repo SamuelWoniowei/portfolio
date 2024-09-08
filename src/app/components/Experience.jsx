@@ -34,7 +34,7 @@ export default function Experience() {
 
   ];
   return (
-    <div className=" lg:pt-28 " id="experience">
+    <div className=" lg:pt-28 text-text" id="experience">
       <h2 className="lg:hidden text-name font-bold mt-20 mb-8">EXPERIENCE</h2>
       {history.map((hist, idx) => (
         <div className="flex flex-col md:flex-row mb-14 wrap font-inter" key={idx}>

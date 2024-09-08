@@ -2,10 +2,10 @@
 "use client"
 import Image from "next/image";
 import LinkTo from "../assets/LinkTo";
-import { useScrollLinkContext } from "../ScrollLinkContext";
+import { useSelector } from "react-redux";
 
 export default function Projects() {
-  const { activeLink } = useScrollLinkContext();
+  const activeLink = useSelector((state) => state.scrollLink.activeLink);
   const projects = [
     {
       name: "Akaani Web app",
@@ -57,7 +57,7 @@ export default function Projects() {
     },
   ];
   return (
-    <div id="projects" className={` ${activeLink === "projects" && ""} lg:pt-28`}>
+    <div id="projects" className={` ${activeLink === "projects" && ""} lg:pt-28 text-text`}>
       <h2 className="lg:hidden text-name font-bold mt-28 mb-8">PROJECTS</h2>
       {projects.map((project, idx) => (
         <a

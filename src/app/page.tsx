@@ -1,5 +1,5 @@
 import Intro from './components/Intro';
-import About from './components/About';
+// import About from './components/About';
 // import Articles from './components/Articles';
 // import Experience from './components/Experience';
 // import Projects from './components/Projects';
@@ -11,13 +11,13 @@ export default function Home() {
       <div className="flex-1">
         <Intro />
       </div>
-      <div className="flex-1">
+      {/* <div className="flex-1">
        <About />
-       {/* <Experience />
+       <Experience />
        <Projects />
        <Articles />
-       <Footer /> */}
-      </div>
+       <Footer />
+      </div> */}
     </main>
   );
 }

@@ -1,13 +1,16 @@
 "use client"
 import { Link as ScrollLink } from "react-scroll";
-import { useScrollLinkContext } from "../ScrollLinkContext";
 import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { setActive } from "../../lib/features/scroll/scrollLinkSlice";
 
 export default function SideNav() {
-  const { activeLink, setActive } = useScrollLinkContext();
+  const activeLink = useSelector((state) => state.scrollLink.activeLink);
+  const dispatch = useDispatch();
 
   const handleSetActive = (link) => {
-    setActive(link);
+    dispatch(setActive(link));
+    console.log(link);
   };
 
   const handleScroll = () => {
@@ -24,7 +27,7 @@ export default function SideNav() {
       return false;
     });
   
-    setActive(activeSection || null);
+    dispatch(setActive(activeSection || null));
   };
 
 

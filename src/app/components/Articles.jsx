@@ -15,7 +15,7 @@ export default function Articles() {
     },
   ];
   return (
-    <div className="" id="articles">
+    <div className="text-text" id="articles">
       <h2 className="text-xl font-karla mb-8 mt-28 lg:mt-0 lg:mb-3">WRITING</h2>
       {articles.map((article, idx) => (
         <div className="flex gap-4 mb-14" key={idx}>
