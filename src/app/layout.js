@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import PropTypes from 'prop-types'; 
 import { Providers } from "../lib/providers";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -10,7 +11,6 @@ export const metadata = {
   keywords: "Samuel Woniowei, portfolio, developer", 
 };
 
-/* eslint-disable react/prop-types */
 export default function RootLayout({ children }) {
   return (
     <Providers>
@@ -20,3 +20,7 @@ export default function RootLayout({ children }) {
     </Providers>
   );
 }
+
+RootLayout.propTypes = {
+  children: PropTypes.node.isRequired, 
+};
