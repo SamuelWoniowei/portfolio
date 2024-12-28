@@ -7,25 +7,30 @@ export default function About() {
       <h2 className="lg:hidden font-bold text-md text-name mt-20 md:mt-10 mb-8">
         ABOUT
       </h2>
-      <p className=" mb-5">
-        Experienced frontend developer specializing in the design and development
-        of responsive web applications. Passionate about creating seamless user
-        interfaces and experiences, I bring expertise in frontend frameworks and
-        libraries, with a strong focus on web accessibility, performance
-        optimization, and cross-browser compatibility.
+
+      <p className="mb-5">
+        I’m a software developer who’s all about creating solutions that don’t
+        just look good but actually work (no “refresh and pray” vibes here).
+        From crafting sleek user interfaces to diving into backend logic that
+        sometimes feels like solving a puzzle with missing pieces, I’m
+        passionate about building apps that are fast, functional, and genuinely
+        helpful.
       </p>
-      <p className=" mb-5">
-        Committed to staying abreast of the latest technologies, I ensure that
-        my solutions align with current trends, providing clients with
-        cutting-edge and effective web development services. My journey involves
-        constant exploration, experimenting with emerging tools, and attending
-        industry events to broaden my skill set and deliver innovative
-        solutions.
+      <p className="mb-5">
+        I started as a frontend enthusiast, perfecting clean designs and making
+        sure buttons do what they’re supposed to (because, let’s face it, they
+        have one job). These days, I’m also exploring the backend world, where
+        I’ve learned that databases have a personality—and it’s not always
+        friendly. For me, it’s all about blending curiosity and creativity to
+        build software that solves real-world problems.
       </p>
       <p>
-        With a keen eye for detail, I approach the design and development of
-        projects with precision. My ultimate objective is to craft user-friendly
-        software that not only meets but exceeds the client&lsquo;s objectives.
+        Technology is always evolving, and so am I. Whether it’s experimenting
+        with the latest tools, optimizing performance, or googling obscure error
+        messages at odd hours, I’m committed to growing and delivering projects
+        that surprise and delight. My goal? To make tech approachable,
+        functional, and just a little magical—because the best software is the
+        kind that makes you wonder how you ever lived without it.
       </p>
     </div>
   );
