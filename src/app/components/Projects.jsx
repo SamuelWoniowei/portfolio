@@ -53,24 +53,6 @@ export default function Projects() {
         "Dynamics Dashboard is a simple and responsive dashboard clone that shows my ability to create a responsive and user-friendly dashboard.",
     },
     {
-      name: "Countries",
-      link: "https://seecountries.netlify.app",
-      img: "https://res.cloudinary.com/shmulky/image/upload/v1704239663/Screenshot_2024-01-03_at_00.54.29.png",
-      github: "https://github.com/SamuelWoniowei/seecountries.git",
-      technology: ["React", "Netlify"],
-      description:
-        "The Countries App offers effortless exploration – seamlessly navigate, search, and filter countries. Dive into detailed pages, explore borders, showcasing my frontend development and user-friendly design skills for a seamless global adventure.",
-    },
-    {
-      name: "Fancy TodoApp",
-      link: "https://fancytodolist.netlify.app",
-      img: "https://res.cloudinary.com/shmulky/image/upload/v1704239820/Screenshot_2024-01-03_at_00.57.50.png",
-      github: "https://github.com/SamuelWoniowei/todoList.git",
-      technology: ["React", "Netlify"],
-      description:
-        "This app is designed for seamless task management with a sleek interface and a user-friendly design. Explore this project to see a demonstration of a functional Todo App with a cool dark mode option.",
-    },
-    {
       name: "Osusu",
       link: "https://osusu.netlify.app",
       img: "https://res.cloudinary.com/shmulky/image/upload/v1735350017/Screenshot_2024-12-28_at_02.40.04.png",
