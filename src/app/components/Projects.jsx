@@ -24,15 +24,7 @@ export default function Projects() {
       description:
         "Developed and styled pages on the Akaani user and Sella Apps",
     },
-    {
-      name: "Countries",
-      link: "https://seecountries.netlify.app",
-      img: "https://res.cloudinary.com/shmulky/image/upload/v1704239663/Screenshot_2024-01-03_at_00.54.29.png",
-      github: "https://github.com/SamuelWoniowei/seecountries.git",
-      technology: ["React", "Netlify"],
-      description:
-        "The Countries App offers effortless exploration – seamlessly navigate, search, and filter countries. Dive into detailed pages, explore borders, showcasing my frontend development and user-friendly design skills for a seamless global adventure.",
-    },
+
     {
       name: "Feed Someone",
       link: "https://feed-someone.vercel.app",
@@ -43,6 +35,15 @@ export default function Projects() {
         "Feed someone is a platform that connects people who need food with those who can provide it. It is a simple and easy-to-use platform that allows users to request food or donate food to those in need.",
     },
     {
+      name: "Crypto Admin Dashboard",
+      link: "https://crypto-admin-dashboard-seven.vercel.app",
+      img: "https://res.cloudinary.com/shmulky/image/upload/v1735882004/Screenshot_2025-01-03_at_06.23.52.png",
+      github: "https://github.com/SamuelWoniowei/crypto-admin-dashboard",
+      technology: ["Vue", "TailwindCss", "Vercel"],
+      description:
+        "Crypto Admin Dashboard is a simple and responsive dashboard interface built with Vuejs and TailwindCss. It was a project I used in learning VueJs",
+    },
+    {
       name: "Dynamics Dashboard",
       link: "https://dynamics-red.vercel.app",
       img: "https://res.cloudinary.com/shmulky/image/upload/v1735349707/Screenshot_2024-12-28_at_02.34.25.png",
@@ -50,6 +51,15 @@ export default function Projects() {
       technology: ["Nextjs", "Vercel"],
       description:
         "Dynamics Dashboard is a simple and responsive dashboard clone that shows my ability to create a responsive and user-friendly dashboard.",
+    },
+    {
+      name: "Countries",
+      link: "https://seecountries.netlify.app",
+      img: "https://res.cloudinary.com/shmulky/image/upload/v1704239663/Screenshot_2024-01-03_at_00.54.29.png",
+      github: "https://github.com/SamuelWoniowei/seecountries.git",
+      technology: ["React", "Netlify"],
+      description:
+        "The Countries App offers effortless exploration – seamlessly navigate, search, and filter countries. Dive into detailed pages, explore borders, showcasing my frontend development and user-friendly design skills for a seamless global adventure.",
     },
     {
       name: "Fancy TodoApp",
@@ -101,7 +111,11 @@ export default function Projects() {
               {project.description}
 
               {project.github && (
-                <Link href={project.github} className="block mt-2" target="_blank">
+                <Link
+                  href={project.github}
+                  className="block mt-2"
+                  target="_blank"
+                >
                   <FaGithub
                     size={20}
                     className="text-name hover:text-black transition duration-200"
