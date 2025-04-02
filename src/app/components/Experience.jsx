@@ -2,8 +2,8 @@ export default function Experience() {
   const history = [
     {
       date: "JAN 2025 - MAR 2025",
-      role: "Necterium Technologies",
-      company: "Akaani",
+      role: "Frontend Developer",
+      company: "Necterium Technologies",
       technology: ["NuxtJs"],
       description:
         "I developed the entire frontend architecture, building scalable, maintainable landing pages and dashboard interfaces from scratch in under two months, optimizing performance and responsiveness, integrating APIs for dynamic interaction, and ensuring clean, well-documented code for smooth handoff to future developers.",
