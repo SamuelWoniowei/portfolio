@@ -1,10 +1,24 @@
 export default function Experience() {
   const history = [
     {
+      date: "JAN 2025 - MAR 2025",
+      role: "Necterium Technologies",
+      company: "Akaani",
+      technology: ["NuxtJs"],
+      description:
+        "I developed the entire frontend architecture, building scalable, maintainable landing pages and dashboard interfaces from scratch in under two months, optimizing performance and responsiveness, integrating APIs for dynamic interaction, and ensuring clean, well-documented code for smooth handoff to future developers.",
+    },
+    {
       date: "NOV 2021 - PRESENT",
       role: "Frontend Engineer",
       company: "Akaani",
-      technology: ["TailwindCss", "React", "Javascript", "React Native", "Expo"],
+      technology: [
+        "TailwindCss",
+        "React",
+        "Javascript",
+        "React Native",
+        "Expo",
+      ],
       description:
         "I took the lead on developing the UI for Akaani’s mobile app using React Native, building over 80% of the interface and creating a seamless, accessible user experience. My work directly contributed to the app’s growth, now with over 1,500 active users. I collaborated closely with designers and the backend team to ensure smooth data flow and a cohesive design. Beyond coding, I brought fresh ideas to team meetings, helping shape the app’s functionality and overall impact.",
     },
